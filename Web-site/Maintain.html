@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <title>MAINTENECE</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+
+
+        
+
+
+        <!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&family=Passions+Conflict&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Special+Elite&display=swap" rel="stylesheet">
+
+
+       
+<link rel="stylesheet" href="css/css.css">
+<script>
+  function validateForm() {
+
+var funame=document.getElementById("funame").value;
+var carnum=document.getElementById("cnum").value;
+if(funame == "") {
+        document.getElementById("blankMsg").innerHTML = "**Fill the  name";
+        return false;
+      }
+   
+      else{
+        document.getElementById("blankMsg").innerHTML = "";
+
+
+      }
+      if(funame.length <= 1 ){
+        document.getElementById("blankMsg").innerHTML = "**Name is not valid ";
+        return false;
+
+      }
+      else{
+        document.getElementById("blankMsg").innerHTML = "";
+
+
+      }
+      //character data validation
+      if(!isNaN(funame)){
+        document.getElementById("blankMsg").innerHTML = "**Only characters are allowed";
+        return false;
+      }
+      else{
+        document.getElementById("blankMsg").innerHTML = "";
+
+
+      }
+      //character data validation
+      if(carnum == "") {
+        document.getElementById("message1").innerHTML = "**Fill the number please!";
+        return false;
+      }
+      else{
+        document.getElementById("message1").innerHTML = "";
+
+
+      }
+    }
+</script>
+
+    </head>
+    <body>
+
+      <!--  start of nav -->
+      
+        <nav class="navbar navbar-expand-lg text-bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">UrCar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <i class="bi bi-chat-left-dots"></i><img src="img/uRCAR.png" width="70px" alt="">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="AboutUs.html">About us</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="freepage.html">Vehicles</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Grap Ur car</a></li>
+                      <li><a class="dropdown-item" href="#">Deliver Ur Car</a></li>
+                      <li><a class="dropdown-item" href="#">Maintenance Ur Car</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+              
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-link px-3 me-2">
+                  <a href="login.html">Login</a>
+                </button>
+                <button type="button" class="btn btn-primary me-3">
+                 Get Started
+                </button>
+                <a
+                  class="btn btn-dark px-3"
+                  href="#"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </nav> 
+        
+        <div class="bodydiv2">
+            <div class="Lside">
+                <div class="formside">
+                    <form method="post" autocomplete="on" id="mform" onsubmit ="return validateForm()">
+                        <div class="subform">
+                            <label>NAME : </label><br>
+                            <input type="text" id="funame" required  value ="" autofocus><br>
+                            <span id = "blankMsg" style="color:red"> </span> <br>
+                        </div>
+                        <div class="subform">
+                            <label>CAR NUMBER:</label><br>
+                            <input type="text" id="cnum"  value ="" required><br>
+                            <span id = "message1" style="color:red"> </span> <br>
+                        </div>
+                        <div class="subform">
+                            <label>car malfunction</label><br>
+                            <textarea aria-colspan="10" required>
+                            </textarea><br>
+
+                        </div>
+                        <div>
+                          
+                          <input type="submit">
+                        </div>
+                        
+                    </form>
+                    
+
+
+                </div>
+               
+                
+
+
+            </div>
+            <div class="Rside">
+                <div class="icon">
+                <h2>LOCATION</h2>
+                <div class="locicon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <p>location of maintenance</p>
+                </div>
+                <div id="map">
+                </div>
+                  <p>come to my location</p>
+                  <div id="myloc">
+                    <button class="btonloc"> MY LOCATION</button>
+                    <p class="pragrph"></p>
+                  </div>
+            </div>
+
+        </div>
+        <footer id="footer">
+            <div class="footer-top">
+              <div class="container">
+                <div class="row">
+        
+                  <div class="col-lg-3 col-md-6 footer-info">
+                    <br>
+                    <br>
+                    <h3>Asfan </h3>
+                    <p>
+                      Asfan Street <br>
+                      Jeddah 535022, KSA<br><br>
+                      <strong>Phone:</strong> 0503520122<br>
+                      <strong>Email:</strong> mshangiti@uj.edu.sa <br>
+                    </p>
+        
+                    <!-- Div for -->
+                     <div class="social-links mt-3">
+                      <a href="#" class="twitter"> <i class="bx bxl-twitter"><img src="img/iconT.jpg" alt="" width="23px"></i></a>
+                      <a href="#" class="facebook"> <i class="bx bxl-facebook"><img src="img/iconF.png" alt="" width="39px"></i></a>
+                      <a href="#" class="instagram"> <i class="bx bxl-instagram"><img src="img/iconIns.jpg" alt="" width="23px"></i></a>
+                      <a href="#" class="google-plus"> <i class="bx bxl-skype"><img src="" alt=""></i></a>
+                      <a href="#" class="linkedin"> <i class="bx bxl-linkedin"><img src="" alt=""></i></a>
+                    </div>
+        
+                  </div>
+        
+        
+                  <div class="col-lg-2 col-md-6 footer-links">
+                    <br><br>
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="Home.html">Home</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="AboutUs.html">About us</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="freepage.html">Vehicles</a></li>
+                    
+                    </ul>
+                  </div>
+        
+                  <div class="col-lg-3 col-md-6 footer-links">
+                    <!-- Emptey -->
+                  </div>
+        
+                  <div class="col-lg-4 col-md-6 footer-newsletter">
+                    <br><br>
+                    <h4>Our Team</h4>
+                    <p>Messgae for clints</p>
+                   
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+        
+            <div class="container">
+              <div class="copyright">
+                &copy; Copyright <strong><span>Moayad Alshangiti</span></strong>. All Rights Reserved
+              </div>
+              
+            </div>
+        
+          
+            <script type="text/javascript">
+            const myloc1 =() =>
+            {
+                const pragrph=document.querySelector('.pragrph');
+    
+    
+                const success=(position)=>
+                {
+                    console.log(position)
+                    const latitude=position.coords.latitude;
+                    const longitude=position.coords.longitude;
+                    const geo='https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=ar'
+                    fetch(geo)
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data)
+                    })
+                    
+                }
+                const error=()=>
+                {
+                    pragrph.textContent='allow google map';
+                }
+                navigator.geolocation.getCurrentPosition(success,error);
+    
+    
+            }
+            document.querySelector('.btonloc').addEventListener('click',myloc1);
+            function initMap() {
+                      var uluru = {lat: 21.916448480396333 ,lng:  39.30810};
+                      var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 4,
+                        center: uluru
+                      });
+                      var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                      });
+                    }
+                    
+       const image_input= document.querySelector("#image_input")
+         var upload = "";
+         image_input.addEventListener("change", function () {
+         const reader = new FileReader();
+         reader.addEventListener("load" ,()=>{
+        upload=reader.result ;
+        document.querySelector("#display").style.backgroundImage = 'url(${upload})';
+
+    });
+    reader.readAsDataURL(this.files[0]);
+
+});
+
+   
+  </script>
+                   
+                    
+
+          </script>
+          <script async defer
+          src=
+      "https://maps.googleapis.com/maps/api/js?key=
+      AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initMap">
+          </script>
+        
+
+    </body>
+</html>

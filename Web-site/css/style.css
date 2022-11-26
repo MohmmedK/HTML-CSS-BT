@@ -1,0 +1,647 @@
+.BodyDiv{
+margin-top: 5%;
+margin-bottom: 8%;
+text-align: center;
+ 
+font-family: 'Bungee Spice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Special Elite', cursive;
+
+
+
+
+}
+#BodyDiv img{
+  height: 700px;
+  width: 100%;
+
+
+
+
+}
+
+
+
+
+
+#footer {
+  
+    background: #587187;
+    padding: 0 0 20px 0;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0px;
+    border: 1px solid black;
+
+   
+  }
+  .copyright{
+    text-align: center;
+
+  }
+  
+  
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #9eccf4;
+    font-size: 18px;
+    line-height: 1;
+  }
+  /* for useful links  */
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    align-items: center;
+  }
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    color: #9eccf4;
+  }
+  
+  #footer .footer-top .footer-newsletter form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4;
+  }
+  
+
+  /* Footer end  */
+
+
+
+
+
+
+  /*  Serv    icon       */
+  .services {
+    padding-bottom: 30px;
+  }
+  
+  .services .icon-box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .services .icon {
+    /* to display the icons in center */
+    display: inline-flex;
+    /* to tkae the center of icon (inside) */
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    /* Broder radius  for icon  */
+    border-radius: 50%;
+    /* How many time it tkeas to see the havor */
+    transition: 0.20s;
+    color: #428bca;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+    /* hide the overflow of icon  */
+    overflow: hidden;
+  }
+  
+  .services .icon i {
+    font-size: 36px;
+   
+  }
+  /* haver of icon */
+  
+  .services .icon-box:hover .icon {
+    box-shadow: 0px 0 30px rgba(202, 66, 191, 0.5);
+  }
+  
+  .services .title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .services .title a {
+    color: #444;
+    transition: 0.3s;
+  }
+  
+
+  .services .title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #428bca;
+    bottom: 0;
+    /* for the line under icon */
+    left: calc(50% - 25px);
+  }
+  
+  .services .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  /* End of home  */
+
+  /* Start of about us  */
+.aboutus_text{
+    color: rgb(71, 58, 58);
+    font-weight: bolder;
+    font-size: 100px;
+   
+font-family: 'Bungee Spice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Special Elite', cursive;
+
+
+
+
+  }
+.aboutus_dec{
+  font-size: 20px;
+
+  font-family: 'Bungee Spice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Special Elite', cursive;
+
+
+
+
+}
+
+#divtable{
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 200px;
+
+
+
+ 
+
+
+
+
+
+
+}
+
+
+
+  
+      table,th,td{
+        text-align: center;
+        border: 2px solid  black;
+        font-family:'Cairo', sans-serif ;  
+        font-size: larger;
+        padding: 1px;
+        border-spacing:2px;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* contact css */
+
+.divh
+{
+    background: #f6fbff;
+    text-align: center;
+    color: rgb(99, 145, 192);
+    font-family:garamond;
+    height: 150px;
+    padding-top: 50px;
+    
+}
+.divform
+{
+    width: 30%;
+    display: inline-block;
+    margin-left: 200px;
+    color: rgb(118, 149, 180);
+    font-size: 22px;
+    font-family: garamond;
+    position: relative;
+    margin-top: 100px;
+    
+    
+}
+
+  
+  .divform .df input
+  {
+    margin: 15px;
+    align-items:center;
+    /* border:none; */
+    /* border-bottom: solid  rgb(245, 247, 249); */
+    background: transparent;
+    color: black;
+    
+
+  }
+  .divform .df label
+  {
+    margin: 15px;
+    color: black;
+  }
+  .divimg
+  {
+    width: 30%;
+    display:inline-block;
+    color: black;
+    margin-top: 100px;
+    
+    
+  }
+  .divimg .dm1
+  {
+    align-items: center;
+    position:relative;
+    display: flex;
+    color: black;
+    
+    margin: 50px;
+    margin-right: 200px;
+    
+
+
+   
+  }
+  .divimg .dm1 .dm2
+  {
+    
+    display:flex;
+    min-width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #428bca;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    margin-right: 7px;
+  }
+  .divimg .dm1 .dm3
+  {
+    display:flex;
+    color: rgb(245, 247, 249);
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column; 
+    color: black;
+  }
+  .bodydiv
+  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    background-color: #ffffffb4;
+    
+   
+   
+  }
+
+  .sb
+  {
+    background: transparent;
+    border: none;
+    color:  rgb(245, 247, 249);
+    font-family: garamond;
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .sb:hover
+  {
+    color: black;
+
+  }
+  #pmas
+  {
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* free page */
+  #MineCont{
+ 
+    width: 60%;
+    height: 2000px;
+    position: relative;
+    top: 70px;
+    margin-left: 350px;
+    margin-right: 30px;
+
+
+  }
+ 
+  
+#r1{
+  
+  width: 40%;
+  height: 14%;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+
+#r2{
+ 
+  width: 40%;
+  height: 14%;
+
+  margin-left: 20px;
+  margin-top: 30px;
+
+}
+#r3{
+ 
+  width: 40%;
+  height: 14%;
+
+margin-left: 20px;
+  margin-top: 30px;
+
+}
+#r4{
+ 
+  width: 40%;
+  height: 14%;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+#r5{
+
+  width: 40%;
+  height: 14%;
+
+  margin-left: 20px;
+  margin-top: 30px;
+
+}
+#r6{
+
+  width: 40%;
+  height: 14%;
+
+margin-left: 20px;
+  margin-top: 30px;
+
+}
+/* div of rent */
+/* car 1 */
+
+.text1{
+position: relative;
+left: 650px;
+bottom: 200px;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Special Elite', cursive;
+text-size-adjust: 200px;
+
+
+
+}
+.price1{
+  position: relative;
+left: 650px;
+bottom: 180px;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Special Elite', cursive;
+text-size-adjust: 200px;
+
+
+
+}
+#but1{
+  position: relative;
+left: 650px;
+bottom: 180px;
+
+
+
+}
+
+/* end  */
+
+
+/*  sign up page  */
+
+
+
+
+
+#divsingup{
+ 
+  margin: 10px 0;
+  background-color: #c3daee;
+  /* padding: 100px auto 100px auto; */
+  width: 29%;
+  height: 100%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  border: 2px double black;
+
+
+
+}
+.titleh{
+  position: relative;
+text-align: center;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Special Elite', cursive;
+text-size-adjust: 200px;
+
+}
+.bodydiv2
+  {
+    position: relative;
+   
+    margin-top: 40px;
+  }
+.Lside
+{
+   
+    width: 50%;
+    color: #ffffff;
+    font-family: garamond;
+    display: inline-block;
+    height: 100%;
+    font-size: 27px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    position: relative;
+    
+}
+.formside
+{
+    
+    width: 100%;
+    height: 50%;
+    margin-top: 60px;
+    padding: 15px;
+}
+.formside input
+{
+    border: none;
+    border-bottom: solid;
+    background-color: transparent;
+    border-bottom-color: #000;
+
+
+}
+.formside textarea
+{
+    background-color: transparent;
+
+}
+#display
+{
+    width: 505px;
+    height: 200px;
+    border: 3px solid #dddddd;
+    margin: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #dddddd;
+    text-align: center;
+}
+.Rside
+{
+    color: #f4f1f1;
+    display: inline-block;
+    width: 49%;
+    position: relative;
+    align-items: center;
+    background-color: #fff;
+    
+
+
+    
+}
+.icon
+{
+   
+    width: 100%;
+    align-items: center;
+}
+  .bodydiv2
+  {
+    position: relative;
+   
+    margin-top: 40px;
+  }
+  .locicon
+  {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:  transparent;
+    font-size: 50px;
+    margin-top: 0px;
+  }
+  
+  #map
+  {
+    
+    width: 100%;
+    height: 50px;
+    width: 350px;
+    height: 300px;
+    border: none;
+    margin: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #dddddd;
+    text-align: center;
+  }
+  .btonloc
+  {
+    background-color: #587187;
+    border: none;
+    border-radius: 10%;
+    display: block;
+    color: #ffffff;
+    margin-left: 20%;
+    align-items: center;
+    position: relative;
+    padding: 1em 2.5em;
+    font-size: 15px;
+  }
+  .btonloc:hover{
+    background-color: #f4f1f1;
+    color: #000;
+  }
+  
+
+
+ 
